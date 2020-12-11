@@ -59,3 +59,4 @@ document.getElementById("restart").onclick = restart;
 function restart() {
   location.reload();
 }
+
