@@ -50,7 +50,7 @@ function btn2() {
 
 document.getElementById("home").onclick = home;
 function home() {
-  window.open(" ");
+  window.open("https://lyndon-bualat.github.io/Portfolio/# ");
 }
 
 
@@ -59,4 +59,3 @@ document.getElementById("restart").onclick = restart;
 function restart() {
   location.reload();
 }
-
