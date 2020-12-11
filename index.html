@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lyndon Production</title>
+  <link rel="shortcut icon" href="image/favicon.ico">
+  <meta name="description" content=" ">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="header1">
+      <nav>
+        <a href="#head"><abbr title="Lyndon Production"><img  id="restart" class="logo" src=image/logo.png></abbr></a>
+        <ul>
+          <li><a href="#" id="home" >HOME</a></li>
+          <li><a href="#work">WORK</a>
+            <ul>
+              <li><a style="width:100px;" href="#work1">HTML</a></li>
+              <li><a style="width:100px;" href="#work2">CSS</a></li>
+              <li><a style="width:100px;" href="#work3">TRAVEL</a></li>
+            </ul>
+          </li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <hr class="l0">
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <div class="header2" id="head">
+      <div class="overlay">
+        <center>
+          <h1> Hi, my name is Lyndon. I design and make websites</h1>
+        </center>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <hr class="l1">
+
+    <div class="aboutMe" id="about">
+      <img class="myimage" src=image/myimage.jpg>
+      <p class="me"><span class="about"> About Me </span><br><br>
+          Hi, my name is Lyndon Rey. I am a developer based in Calgary. <br> I love coding, come see the works that I have using HTML, CSS and Javascript.
+          More programming language that I know are, C++ and C#. The IDE that I use is Atom. I also have experience with Photoshop and Illustrate.
+      </p>
+    </div>
+
+    <br><br><br>
+
+    <hr class="l1">
+
+
+    <div class="htmlWork" id="work1">
+      <div class="explain">
+        <p class="html1"><span class="about"><img class="html" src="image/html.png"> HTML </span>
+          <br><br>
+              In here, I build an HTML cheat sheet where you can drop notes and save them as email. The purpose of this site is to show others what are
+              the functions of these basic html elements, tags and more.
+           <br><br> <a id="btn1" class="myButton">See Here</a></p>
+      </div>
+      <div class="Image">
+        <img id="img" src="ImgHtml/Img (1).jpg" onclick="Next1()" alt="">
+      </div>
+    </div>
+
+
+    <br><br><br>
+
+    <hr class="l1">
+
+    <div class="cssWork" id="work2">
+      <div class="Image">
+        <img id="img1" src="ImgCss/Img (1).jpg" onclick="Next2()" alt="">
+      </div>
+      <p class="css1"><span class="about"> <img class="css" src="image/css.png"> CSS </span>
+        <br><br>
+        This site is a CSS cheat sheet you can also drop notes in here. This site is it to show basic functions of CSS. In here
+        you will be introcued of basic design that could help you learn more about CSS.
+       <br><br> <a id="btn2" class="myButton">See Here</a></p>
+    </div>
+
+     <hr class="l1">
+
+        <div class="travelWork" id="work3">
+          <div class="explain">
+            <p class="travel1"><span class="about"><img class="travel" src="image/camera.png">Travel</span>
+              <br><br>
+              I like to travel and taking pictures. Photography and Photoshop are my hobbies and there is more to come.
+          </div>
+          <div class="Image">
+            <img id="img2" src="ImgTravel/Img (1).jpg" onclick="Next3()" alt="">
+          </div>
+        </div>
+
+
+
+    <br><br>
+    <hr class="l0">
+
+    <footer>
+      <br><br>
+      <div id="contact">
+        <h1 class="contactMe">Contact Me</h1>
+        <form action="mailto:@gmail.com" method="post">
+          <div class="email">
+            <label for="idEmail">Email:</label>
+            <br><br>
+            <input id="idEmail" type="email" name="" value="" required>
+            <input class="inputEmail" type="submit" name="" value="Send">
+            <br><br>
+          </div>
+          <textarea name="name" rows="10" cols="100" placeholder="Comments..."></textarea>
+          <br><br>
+        </form>
+
+
+        <div class="footer">
+
+          <center>
+            <ul>
+              <li><hr class="l2"><a href="https://www.facebook.com/"><img src="image/facebook.png" alt="Facebook"></a><span class="foot">On Facebook</span></li>
+              <li><hr class="l2"><a href="https://www.instagram.com/"><img src="image/instagram.png" alt="Instagram"></a><span class="foot">On Instagram</span></li>
+              <li><hr class="l2"><a href="https://www.linkedin.com/"> <img src="image/linkedin.png" alt="Linkedin"></a><span class="foot">On Linkedin</span></li>
+              <li><hr class="l2"><a href="https://github.com/Lyndon-Bualat"> <img src="image/github.png" alt="github"></a><span class="foot">On Github</span></li>
+            </ul>
+          </center>
+        </div>
+    </footer>
+
+    <div class="credit">
+      <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+
+  </div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
