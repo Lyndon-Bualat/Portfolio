@@ -31,7 +31,7 @@ function Next3() {
   {
     index=1;
   }
-  let address='ImgTravel/Img ('+index+').jpg';
+  let address='ImgTravel/Img ('+index+').JPG';
   document.getElementById('img2').src=address;
 }
 
